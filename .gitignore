@@ -60,3 +60,4 @@ buck-out/
 .vscode/.react/index.bundle
 .vscode/settings.json
 
+.vscode/.react/index.map
