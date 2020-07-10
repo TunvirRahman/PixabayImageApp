@@ -1,5 +1,5 @@
 import axios from 'axios';
-import API from '../../contants/appConstants';
+import { API } from '../../contants/appConstants';
 
 export default class HTTPService {
     constructor() {

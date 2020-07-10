@@ -20,4 +20,9 @@ module.exports = {
   rules: {
     indent: ['error', 4],
   },
+  env: {
+    commonjs: true,
+    node: true,
+    jest: true,
+  },
 };

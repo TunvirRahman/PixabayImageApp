@@ -3,4 +3,8 @@ const API = {
     GET_IMAGE: '/getAll',
     NONE: '/',
 };
-export default API;
+const API_KEYS = {
+    PIXABAY_API_KEY: '17417021-81214169c95284c2a26166349',
+};
+
+export { API, API_KEYS };
