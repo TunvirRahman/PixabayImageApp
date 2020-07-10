@@ -9,16 +9,11 @@ const StyledView = styled.View`
   flex:1
 `;
 
-class HomeScreen extends React.Component {
-    render() {
-        return (
-            <StyledView>
-                <Text>Home Screen</Text>
-            </StyledView>
-
-        );
-    }
-}
+const HomeScreen = () => (
+    <StyledView>
+    <Text>Home Screen</Text>
+  </StyledView>
+);
 
 const AppNavigator = createStackNavigator({
     Home: {
