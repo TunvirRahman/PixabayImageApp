@@ -2,13 +2,20 @@ import React from 'react';
 import { View, Text } from 'react-native';
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
+import styled from 'styled-components/native';
+
+const StyledView = styled.View`
+  background-color: papayawhip;
+  flex:1
+`;
 
 class HomeScreen extends React.Component {
     render() {
         return (
-            <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+            <StyledView>
                 <Text>Home Screen</Text>
-            </View>
+            </StyledView>
+
         );
     }
 }
