@@ -98407,8 +98407,8 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
-  var App = function (_Component) {
-    (0, _inherits2.default)(App, _Component);
+  var App = function (_React$Component) {
+    (0, _inherits2.default)(App, _React$Component);
 
     var _super = _createSuper(App);
 
@@ -98434,11 +98434,11 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
             lineNumber: 8,
             columnNumber: 9
           }
-        }, " textInComponent "));
+        }, "Sample "));
       }
     }]);
     return App;
-  }(_react.Component);
+  }(_react.default.Component);
 
   exports.default = App;
 },473,[1,9,26,27,44,46,43,58,2],"App.js");

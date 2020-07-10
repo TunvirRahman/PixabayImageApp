@@ -57,3 +57,6 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+.vscode/.react/index.bundle
+.vscode/settings.json
+
