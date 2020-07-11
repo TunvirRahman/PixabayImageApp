@@ -61,3 +61,5 @@ buck-out/
 .vscode/settings.json
 
 .vscode/.react/index.map
+.vscode/.react/debuggerWorker.js
+.vscode/.react/index.map
