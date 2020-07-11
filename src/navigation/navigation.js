@@ -9,7 +9,7 @@ const StyledView = styled.View`
   flex:1
 `;
 
-const HomeScreen = () => (
+const HomeScreen = (props) => (
     <StyledView>
     <Text>Home Screen</Text>
   </StyledView>
